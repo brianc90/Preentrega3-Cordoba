@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    background-color: rgba(151, 1, 18, 0.688);
+}
+
+.inicio{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url(../img/attack-on-titan-final-2@2000x1270-1392x884.jpg);
+    background-size:cover;
+    background-position: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contacto{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url(../img/shingeki-no-kyojin-personajes-og.jpg);
+    background-size:cover;
+    background-position: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url(../img/los\ pibardos.jpg);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url(../img/eren.jpg);
+    background-size:cover;
+    background-position: cente;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    background-image: url(../img/muñecosws.png);
+    background-size:cover;
+    background-position: cente;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-te {
+    margin-bottom: 0%;
+    padding-bottom: 0;
+}
+
+.call{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+}
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+.formulario {
+    text-align: center;
+    margin: 25%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.galeria{
+    width: 100%;
+    min-height: 300px;
+    background-color: rgba(197, 84, 97, 0.688);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 200px);
+    padding: 20px;
+    grid-gap: 15px;}
+
+.item{
+    border: 3px solid #333;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.9s;
+    filter:brightness(50%);
+}
+.item:hover{
+    transform: scale(1.09);
+    transition: all 0.9s;
+    filter: sepia(0%);
+}
+
+.item1{
+    background-image:url(../img/aa7cedc0c5e81ce24a77a78cb42ae0661615948746_main.png);
+    /* grid-column: 1/2;
+    grid-row: 1/3; */
+
+}
+.item2{
+    background-image: url(../img/Impresionante-cosplay-da-vida-a-Levi-uno-de-los-personajes-de-Shingeki-no-Kyojin.jpg);
+    /* grid-column: 2/3;
+    grid-row: 1/2; */
+
+}
+.item3{
+    background-image: url(../img/titanatt.jpg);
+    /* grid-column: 3/5;
+    grid-row: 1/2; */
+
+}
+.item4{
+    background-image: url(../img/descarga.jpg);
+    /* grid-column: 2/3;
+    grid-row: 2/4; */
+
+}
+.item5 {
+    background-image: url(../img/shingeki-no-kyojin-personajes-og.jpg);
+    /* grid-column: 3/4;
+    grid-row: 2/3; */
+
+}
+.item6 {
+    background-image: url(../img/original.jpg);
+    /* grid-column: 4/5;
+    grid-row: 2/3; */
+
+    }
+.item7 {
+    background-image: url(../img/maxresdefault-1-2-1024x576.jpg);
+    /* grid-column: 1/2;
+    grid-row: 3/4; */
+}
+.item8 {
+    background-image: url(../img/image-273.png);
+    /* grid-column: 3/5;
+    grid-row: 3/4; */
+}
+
+footer{
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin-top: 100vh;
+}
+
+footer p{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+}
+footer a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+
+@media only screen and (min-width:480px) {
+    .galeria{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: repeat(4, 200px);
+    }
+    .nosotros{
+        display: flex;
+    }
+    .nright{
+        width: 50%;
+    }
+    .nleft{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023){
+    .galeria{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .item1 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .item2 {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    .item3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .item4 {
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+    .item5 {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    .item6 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .item7 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .item8 {
+        grid-column: 2/4;
+        grid-row: 4/5;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .galeria{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 200px 200px;
+    }
+}
