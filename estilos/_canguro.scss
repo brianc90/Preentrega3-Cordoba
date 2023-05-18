@@ -1,0 +1,8 @@
+.canguro {
+    position: relative;
+    transition: 0.9s;
+}
+
+section .canguro:hover {
+    transform: skew(180deg,10deg)
+}

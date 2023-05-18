@@ -1,0 +1,38 @@
+    //   mixin & extends   //
+
+    
+    @mixin sizes{
+        width: 100;
+        height: 100vh;
+        background-color: $color1;
+    }
+
+
+.inicio{
+    @include sizes;
+    background-image: url(../img/attack-on-titan-final-2@2000x1270-1392x884.jpg);
+    background-size:cover;
+    background-position: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Contacto{
+    @extend .inicio;
+    background-image: url(../img/shingeki-no-kyojin-personajes-og.jpg);
+}
+
+.nosotros{
+    @extend .inicio;
+    background-image: url(../img/los\ pibardos.jpg);
+}
+
+.servicios{
+    @extend .inicio;
+    background-image: url(../img/flag2.jpg);
+}
+
+.productos{
+    @extend .inicio;
+    background-image: url(../img/muñecosws.png);
+}

@@ -1,0 +1,68 @@
+.galeria{
+    width: 100%;
+    min-height: 300px;
+    background-color: rgba(197, 84, 97, 0.688);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 200px);
+    padding: 20px;
+    grid-gap: 15px;
+    .item{
+        border: 3px solid #333;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.9s;
+        filter:brightness(50%);
+    }
+    .item:hover{
+        transform: scale(1.09);
+        transition: all 0.9s;
+        filter: sepia(0%);
+    }
+}
+.item1{
+    background-image:url(../img/aa7cedc0c5e81ce24a77a78cb42ae0661615948746_main.png);
+    /* grid-column: 1/2;
+    grid-row: 1/3; */
+
+}
+.item2{
+    background-image:url(../img/Impresionante-cosplay-da-vida-a-Levi-uno-de-los-personajes-de-Shingeki-no-Kyojin.jpg);
+    /* grid-column: 2/3;
+    grid-row: 1/2; */
+
+}
+.item3{
+    background-image: url(../img/titanatt.jpg);
+    /* grid-column: 3/5;
+    grid-row: 1/2; */
+
+}
+.item4{
+    background-image: url(../img/descarga.jpg);
+    /* grid-column: 2/3;
+    grid-row: 2/4; */
+
+}
+.item5 {
+    background-image: url(../img/shingeki-no-kyojin-personajes-og.jpg);
+    /* grid-column: 3/4;
+    grid-row: 2/3; */
+
+}
+.item6 {
+    background-image: url(../img/original.jpg);
+    /* grid-column: 4/5;
+    grid-row: 2/3; */
+
+    }
+.item7 {
+    background-image: url(../img/maxresdefault-1-2-1024x576.jpg);
+    /* grid-column: 1/2;
+    grid-row: 3/4; */
+}
+.item8 {
+    background-image: url(../img/image-273.png);
+    /* grid-column: 3/5;
+    grid-row: 3/4; */
+}

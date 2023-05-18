@@ -1,0 +1,10 @@
+$color1: #fff;
+$color2: rgba(0, 0, 0, 0.611);
+
+.call{
+    color: $color1;
+    background-color: $color2;
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+}

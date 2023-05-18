@@ -1,0 +1,18 @@
+$color1: #000000;
+$color2: rgba(155, 1, 18, 0.688);
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+
+@import "_separadores.scss";
+@import "_body.scss";
+@import "_canguro.scss";
+@import "_footer.scss";
+@import "_formulario.scss";
+@import "_banners.scss";
+@import "_call.scss";
+@import "_galeria.scss";
+@import "_media_querys.scss";
