@@ -10,7 +10,7 @@
 
 .inicio{
     @include sizes;
-    background-image: url(../img/attack-on-titan-final-2@2000x1270-1392x884.jpg);
+    background-image: url(../img/attack-on-titan-final-2@2000x1270-1392x884.webp);
     background-size:cover;
     background-position: none;
     display: flex;
@@ -19,7 +19,7 @@
 }
 .Contacto{
     @extend .inicio;
-    background-image: url(../img/shingeki-no-kyojin-personajes-og.jpg);
+    background-image: url(../img/shingeki-no-kyojin-personajes-og.webp);
 }
 
 .nosotros{
@@ -34,5 +34,5 @@
 
 .productos{
     @extend .inicio;
-    background-image: url(../img/muñecosws.png);
+    background-image: url(../img/muñecosws.webp);
 }
